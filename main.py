@@ -15,3 +15,11 @@ print(lion.speak())
 print(dog.intro())
 print(cat.intro())
 print(lion.intro())
+
+from animal import Shapes
+
+Hexagon = Shapes(area = 35, sides = 6)
+Rectangle = Shapes(area = 28, sides = 4)
+
+print(Hexagon.speak())
+print(Rectangle.speak())

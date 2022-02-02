@@ -10,3 +10,10 @@ class Animal:
  def intro(self):
            return f" The names {self.name}, {self.name} Bond."
  
+
+class Shapes:
+  def __init__(self,area,sides):
+    self.area = area
+    self.sides = sides
+  def speak(self):
+     return f"The Shape is {self.area}cm2 and has as many as {self.sides}."
